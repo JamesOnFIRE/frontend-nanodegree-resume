@@ -1,6 +1,3 @@
-/*
-This is empty on purpose! Your code to build the resume will go here.
-*/
 
 
 var formattedName = HTMLheaderName.replace("%data%","James Talbot");
@@ -22,7 +19,7 @@ var bio =
    "email":"jamestalbot64@yahoo.com"
 },
 
-   "welcome message":"Thanks for taking the time to view my resumé, and also being awesome!",
+   "welcomeMessage":"Thanks for taking the time to view my resumé, and also being awesome!",
    "skills":
    ["HTML","CSS","Javascript","JQuery","AngularJS","node.js","MySQL","saving the world"]
 
@@ -33,8 +30,28 @@ var bio =
 $("#main").append(bio.name);
 $("#main").append(bio.role);
 $("#main").append(bio.contact);
-$("#main").append(bio.welcome message);
+$("#main").append(bio.welcomeMessage);
 $("#main").append(bio.skills);
+
+var work = {};
+
+work.employer = "Red Robin";
+work.position = "Manager";
+work.year = 1;
+work.location = "Saratoga";
+
+var education = {};
+
+education["school"] = "Foothill College";
+education["years"] = "2013-2014";
+education["city"] = "Los Altos, California, US";
+
+
+$("#main").append(work["position"]);
+$("#main").append(education.name);
+
+
+
 
 
 
