@@ -24,8 +24,19 @@ var bio =
 
    "welcome message":"Thanks for taking the time to view my resumé, and also being awesome!",
    "skills":
-   ["HTML","CSS","Javascript","JQuery","AngularJS","node.js","saving the world"]
+   ["HTML","CSS","Javascript","JQuery","AngularJS","node.js","MySQL","saving the world"]
 
 
 }
+
+
+$("#main").append(bio.name);
+$("#main").append(bio.role);
+$("#main").append(bio.contact);
+$("#main").append(bio.welcome message);
+$("#main").append(bio.skills);
+
+
+
+
 
