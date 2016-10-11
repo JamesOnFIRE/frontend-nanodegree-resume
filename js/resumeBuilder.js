@@ -12,4 +12,20 @@ $("#header").prepend(formattedName);
 
 
 
+var bio =
+{
+   "name":"James Talbot",
+   "role":"Front end web developer",
+   "contact":
+{
+   "mobile":"650-417-5873",
+   "email":"jamestalbot64@yahoo.com"
+},
+
+   "welcome message":"Thanks for taking the time to view my resumé, and also being awesome!",
+   "skills":
+   ["HTML","CSS","Javascript","JQuery","AngularJS","node.js","saving the world"]
+
+
+}
 
