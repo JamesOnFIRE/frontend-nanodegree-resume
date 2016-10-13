@@ -21,7 +21,8 @@ var bio =
 
    "welcomeMessage":"Thanks for taking the time to view my resumé, and also being awesome!",
    "skills":
-   ["HTML","CSS","Javascript","JQuery","AngularJS","node.js","MySQL","saving the world"]
+   ["HTML","CSS","Javascript","JQuery","AngularJS","node.js","MySQL","saving the world"],
+   "bioPic":"Asset.jpg"
 
 
 }
@@ -46,9 +47,13 @@ education["school"] = "Foothill College";
 education["years"] = "2013-2014";
 education["city"] = "Los Altos, California, US";
 
+var projects = {};
+
+
+
 
 $("#main").append(work["position"]);
-$("#main").append(education.name);
+$("#main").append(education.school);
 
 
 
